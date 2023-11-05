@@ -16,25 +16,25 @@ Aby uruchomić ten projekt, będziesz potrzebować:
 ## Uruchamianie projektu
 
 1. Pobierz lub sklonuj repozytorium na swój komputer.
-
+```
 git clone https://github.com/twoj-uzytkownik/taskmanager.git
-
+```
 2. Przejdź do katalogu projektu.
-
+```
 cd taskmanager
-
+```
 3. Zainstaluj zależności za pomocą pip (zalecane jest użycie wirtualnego środowiska Python).
-
+```
 pip install -r requirements.txt
-
+```
 4. Wykonaj migracje bazy danych.
-
+```
 python manage.py migrate
-
+```
 5. Uruchom serwer deweloperski.
-
+```
 python manage.py runserver
-
+```
 6. Otwórz przeglądarkę i przejdź pod adres: `http://localhost:8000/`.
 
 ## Kontrybutorzy
