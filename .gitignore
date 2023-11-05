@@ -1,0 +1,15 @@
+# pliki kompilowane i pliki tymczasowe
+*.pyc
+__pycache__/
+.vscode/
+
+# katalog wirtualnego środowiska Python
+my_venv/
+
+# pliki konfiguracyjne
+.env
+.config/
+
+# pliki generowane przez IDE
+.idea/
+.vscode/
